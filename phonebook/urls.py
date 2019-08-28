@@ -1,6 +1,11 @@
 from django.conf.urls import url
-from . import views
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
 
+from phonebook import views
+
+router = DefaultRouter()
+router.register(r'contacts/$', views.ContactList)
 urlpatterns = [
-    url(r'^contacts/$', views.ContactList.as_view(), name='contact-list'),
+    path('', include(router.urls)),
 ]
