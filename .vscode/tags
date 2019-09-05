@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0001_initial.py	../phonebook/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20190828_2224.py	../phonebook/migrations/0002_auto_20190828_2224.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../phonebookProject/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../phonebookProject/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:90
+AppConfig	../phonebook/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../phonebookProject/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+ContactList	../phonebook/views.py	/^class ContactList(viewsets.ModelViewSet):$/;"	kind:class	line:7
+Contacts	../phonebook/models.py	/^class Contacts(models.Model):$/;"	kind:class	line:4
+Contacts	../phonebook/serializers.py	/^from .models import Contacts$/;"	kind:namespace	line:2
+Contacts	../phonebook/views.py	/^from .models import Contacts$/;"	kind:namespace	line:3
+ContactsSerializer	../phonebook/serializers.py	/^class ContactsSerializer(serializers.ModelSerializer):$/;"	kind:class	line:4
+ContactsSerializer	../phonebook/views.py	/^from .serializers import ContactsSerializer$/;"	kind:namespace	line:4
+DATABASES	../phonebookProject/settings.py	/^DATABASES = {$/;"	kind:variable	line:79
+DEBUG	../phonebookProject/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../phonebookProject/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../phonebookProject/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:109
+MIDDLEWARE	../phonebookProject/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:45
+Meta	../phonebook/models.py	/^    class Meta:$/;"	kind:class	line:5
+Meta	../phonebook/serializers.py	/^    class Meta:$/;"	kind:class	line:5
+Migration	../phonebook/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../phonebook/migrations/0002_auto_20190828_2224.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+PhonebookConfig	../phonebook/apps.py	/^class PhonebookConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	../phonebookProject/settings.py	/^ROOT_URLCONF = 'phonebookProject.urls'$/;"	kind:variable	line:55
+SECRET_KEY	../phonebookProject/settings.py	/^SECRET_KEY = '9_)91@9i-v1ky#01#om@%py)a+5hv831x69vr2v+0+9i_simmd'$/;"	kind:variable	line:23
+STATIC_URL	../phonebookProject/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:123
+TEMPLATES	../phonebookProject/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:57
+TIME_ZONE	../phonebookProject/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:111
+TestCase	../phonebook/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../phonebookProject/settings.py	/^USE_I18N = True$/;"	kind:variable	line:113
+USE_L10N	../phonebookProject/settings.py	/^USE_L10N = True$/;"	kind:variable	line:115
+USE_TZ	../phonebookProject/settings.py	/^USE_TZ = True$/;"	kind:variable	line:117
+WSGI_APPLICATION	../phonebookProject/settings.py	/^WSGI_APPLICATION = 'phonebookProject.wsgi.application'$/;"	kind:variable	line:73
+__init__.py	../phonebook/__init__.py	1;"	kind:file	line:1
+__init__.py	../phonebook/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../phonebookProject/__init__.py	1;"	kind:file	line:1
+__str__	../phonebook/models.py	/^    def __str__(self):$/;"	kind:member	line:12
+admin	../phonebook/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin	../phonebookProject/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin.py	../phonebook/admin.py	1;"	kind:file	line:1
+application	../phonebookProject/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../phonebook/apps.py	1;"	kind:file	line:1
+dependencies	../phonebook/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	../phonebook/migrations/0002_auto_20190828_2224.py	/^    dependencies = [$/;"	kind:variable	line:8
+email	../phonebook/models.py	/^    email = models.CharField(max_length = 200, null = True)$/;"	kind:variable	line:9
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:10
+field	../phonebook/migrations/0002_auto_20190828_2224.py	/^            field=models.CharField(max_length=20, null=True),$/;"	kind:variable	line:26
+field	../phonebook/migrations/0002_auto_20190828_2224.py	/^            field=models.CharField(max_length=200, null=True),$/;"	kind:variable	line:16
+field	../phonebook/migrations/0002_auto_20190828_2224.py	/^            field=models.CharField(max_length=200, null=True),$/;"	kind:variable	line:21
+fields	../phonebook/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:16
+fields	../phonebook/serializers.py	/^        fields = '__all__'/;"	kind:variable	line:7
+get_wsgi_application	../phonebookProject/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../phonebookProject/urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:18
+initial	../phonebook/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:8
+main	../manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../manage.py	1;"	kind:file	line:1
+migrations	../phonebook/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+migrations	../phonebook/migrations/0002_auto_20190828_2224.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+model	../phonebook/serializers.py	/^        model = Contacts$/;"	kind:variable	line:6
+model_name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            model_name='contacts',$/;"	kind:variable	line:14
+model_name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            model_name='contacts',$/;"	kind:variable	line:19
+model_name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            model_name='contacts',$/;"	kind:variable	line:24
+models	../phonebook/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../phonebook/migrations/0002_auto_20190828_2224.py	/^from django.db import migrations, models$/;"	kind:namespace	line:3
+models	../phonebook/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../phonebook/models.py	1;"	kind:file	line:1
+name	../phonebook/apps.py	/^    name = 'phonebook'$/;"	kind:variable	line:5
+name	../phonebook/migrations/0001_initial.py	/^            name='Contacts',$/;"	kind:variable	line:15
+name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            name='email',$/;"	kind:variable	line:15
+name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            name='name',$/;"	kind:variable	line:20
+name	../phonebook/migrations/0002_auto_20190828_2224.py	/^            name='phone',$/;"	kind:variable	line:25
+name	../phonebook/models.py	/^    name = models.CharField(max_length = 200, null = True)$/;"	kind:variable	line:8
+operations	../phonebook/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:13
+operations	../phonebook/migrations/0002_auto_20190828_2224.py	/^    operations = [$/;"	kind:variable	line:12
+os	../manage.py	/^import os$/;"	kind:namespace	line:3
+os	../phonebookProject/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../phonebookProject/wsgi.py	/^import os$/;"	kind:namespace	line:10
+path	../phonebookProject/urls.py	/^from django.urls import path$/;"	kind:namespace	line:17
+phone	../phonebook/models.py	/^    phone = models.CharField(max_length = 20, null = True)$/;"	kind:variable	line:10
+queryset	../phonebook/views.py	/^    queryset = Contacts.objects.all()$/;"	kind:variable	line:8
+render	../phonebook/views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+serializer_class	../phonebook/views.py	/^    serializer_class = ContactsSerializer$/;"	kind:variable	line:9
+serializers	../phonebook/serializers.py	/^from rest_framework import serializers$/;"	kind:namespace	line:1
+serializers.py	../phonebook/serializers.py	1;"	kind:file	line:1
+settings.py	../phonebookProject/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:4
+tests.py	../phonebook/tests.py	1;"	kind:file	line:1
+url	../phonebook/urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+url	../phonebookProject/urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:18
+urlpatterns	../phonebook/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urlpatterns	../phonebookProject/urls.py	/^urlpatterns = [$/;"	kind:variable	line:20
+urls.py	../phonebook/urls.py	1;"	kind:file	line:1
+urls.py	../phonebookProject/urls.py	1;"	kind:file	line:1
+views	../phonebook/urls.py	/^from . import views$/;"	kind:namespace	line:2
+views.py	../phonebook/views.py	1;"	kind:file	line:1
+viewsets	../phonebook/views.py	/^from rest_framework import viewsets$/;"	kind:namespace	line:2
+wsgi.py	../phonebookProject/wsgi.py	1;"	kind:file	line:1
