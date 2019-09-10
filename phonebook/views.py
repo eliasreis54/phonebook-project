@@ -39,7 +39,7 @@ class ContactList(viewsets.ViewSet):
         queryset.email=emailRequest
         queryset.save()
         serializer = ContactsSerializer(queryset)
-        return Response(serializer.data)
+        return Response(serializer.data)    
 
     def destroy(self, request, pk=None):
         queryset = Contacts.objects.filter(pk=pk)
